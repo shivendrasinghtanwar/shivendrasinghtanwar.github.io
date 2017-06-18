@@ -1,0 +1,35 @@
+body{
+	background: #73abf0;
+	text-transform: uppercase;
+}
+.header h2{
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.process{
+	margin-top: 50px;
+}
+.process h3{
+	border: solid thin black;
+	background: rgba(1,0,0,0.6);
+	color: white;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.process li{
+	margin-top: 0px;
+	padding: 10px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+.process a{
+	font-size: 20px;
+	text-decoration: underline;
+	color: darkblue;
+}
