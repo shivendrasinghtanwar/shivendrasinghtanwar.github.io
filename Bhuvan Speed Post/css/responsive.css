@@ -1,0 +1,18 @@
+@media only screen and (min-width:0px) and (max-width: 	767px){
+	.header h2{
+		font-size: 30px !important;
+		text-decoration: none;
+	}
+	.process{
+		margin-top: 0px !important;
+	}
+	.process li{
+		font-size: 25px !important;
+	}
+	.process a{
+		font-size: 18px !important;
+	}
+	.break{
+		display: block !important;
+	}
+}
