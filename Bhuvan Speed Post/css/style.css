@@ -36,3 +36,9 @@ body{
 .break{
 	display: none;
 }
+.selectsection
+{
+	width: 400px !important;
+	height: 30px;
+	margin-top: 20px;
+}
