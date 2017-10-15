@@ -1,0 +1,55 @@
+
+header{
+	height: 80px !important;
+	padding-top: 14px;
+	position: fixed;
+	z-index: 1000;
+	margin: auto;
+	width: 100%;
+    transition: all 0.2s ease-in-out !important;
+}
+.menu{
+	background: transparent !important;
+	border: none !important;
+	padding-top: 0px !important;
+	margin-bottom: 0px !important;
+	font-weight: bold !important;
+	box-shadow: none !important;
+}
+.menu a
+{
+	color: #fff !important;
+}
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url(../images/slider/2.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.sec_3 button{
+	border: solid thin white;
+	border-radius: 5px;
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	margin: 8px;
+}
