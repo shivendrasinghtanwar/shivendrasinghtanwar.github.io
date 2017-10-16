@@ -35,9 +35,9 @@
             <input type="text" name="data" value="">
             <input type="submit" value="Generate">
           </form>
-          <?php if(isset($_POST['data'])){
-          }
-          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Hello"><a href="">Helo</a> 
+          <?php if(isset($_GET['data'])){ ?>
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=<?php echo $_GET['data'] ?> ">
+          <?php } ?>
         </div>
         <div class="col-md-2"></div>
       </div>
