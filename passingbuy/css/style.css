@@ -254,3 +254,26 @@ header{
   color: white;
   font-size: 20px;
 }
+.sec_6_r2 button,.sec_6_r3 button{
+  background: #cf0b2c;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sec_6_r3{
+  margin-top: 30px;
+}
+.sec_6_r3 h3{
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
+.sec_6_r3 p{
+  font-size: 20px;
+  color: white;
+  font-weight: 200px;
+}
