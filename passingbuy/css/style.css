@@ -58,8 +58,8 @@ header{
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 35%;
-    transform: translate(-30%, -50%);
+    left: 45%;
+    transform: translate(-40%, -50%);
     color: #418aa6;
 }
 .hero-text h1{
@@ -216,18 +216,34 @@ header{
   font-size: 60px;
 }
 .sec_4_r2{
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .sec_4_r2box{
-  overflow: hidden;
+  /*border:solid thin red;*/
 }
 .sec_4_r2box img{
-  height: 330px;
-  width: 385px;
+  height: 80px;
+  width: 80px;
+  transition: 0.5s ease;
+}
+.sec_4_r2box h3{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  color: #34495e;
+  /*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
 }
 .sec_4_r2box:hover img{
-  transform: scale(1.1);
-  transition: .5s ease;
+  transform: translateY(-8px);
+  transition: 1s ease;
+}
+.sec_4_r2box:hover .sec_4_r2box h3{
+  border:solid 2px red;
+  transition: 1s ease-in-out;
 }
 /*--------------Section 5 ------------------*/
 .sec_5{
