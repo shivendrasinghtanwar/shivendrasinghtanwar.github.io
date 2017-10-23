@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
 header{
 	height: 80px !important;
 	padding-top: 14px;
@@ -8,6 +10,10 @@ header{
 	width: 100%;
     transition: all 0.2s ease-in-out !important;
 }
+#head a{
+  font-size: 22px;
+}
+
 .menu{
 	background: transparent !important;
 	border: none !important;
@@ -23,7 +29,7 @@ header{
 /* The hero image */
 .hero_faux_image {
     /* The image used */
-    background-image: url(../images/slider/2.jpg) ; 
+    background-image: url(../images/slider/2.jpeg) ; 
 
     /* Set a specific height */
     height: 100px;
@@ -52,17 +58,38 @@ header{
     text-align: center;
     position: absolute;
     top: 50%;
+    left: 35%;
+    transform: translate(-30%, -50%);
+    color: #418aa6;
+}
+.hero-text h1{
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.hero-text b{
+  color: white;
+  text-transform: uppercase;
+}
+.hero_btn{
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    transform: translate(-50%, -10%);
+    background: #BF360C;
+}
+.hero_btn h3{
+  color: white;
+  margin: 15px;
 }
 /*------------Section 2------------*/
 .sec_2{
-    background:#EAEDED  ;
+    background:#1b5773 ;
     background-size: cover; 
 }
 .sec_2_box h3{
-    color:#0FA7CF;
+    color:white;
     font-size: 55px;
     font-weight: bolder;
 }
@@ -185,11 +212,11 @@ header{
 }
 .sec_4_r1 h3{
   color: #34495E;
-  font-weight: 300;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 60px;
 }
 .sec_4_r2{
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .sec_4_r2box{
   overflow: hidden;
