@@ -237,14 +237,19 @@ header{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);*/
 }
+.sec_4_r2box p{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .sec_4_r2box:hover img{
   transform: translateY(-8px);
-  transition: 1s ease;
-}
-.sec_4_r2box:hover .sec_4_r2box h3{
-  border:solid 2px red;
+  transition: 0.5s ease;
+}/*
+.sec_4_r2box:hover h3{
+  text-decoration: underline;
   transition: 1s ease-in-out;
-}
+}*/
 /*--------------Section 5 ------------------*/
 .sec_5{
   background: white;
