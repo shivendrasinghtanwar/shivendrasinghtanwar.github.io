@@ -2,30 +2,62 @@ body{
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 header{
-	height: 80px !important;
 	padding-top: 14px;
 	position: fixed;
 	z-index: 1000;
 	margin: auto;
 	width: 100%;
-    transition: all 0.2s ease-in-out !important;
+    transition: all 0.5s ease !important;
 }
-#head a{
-  font-size: 22px;
+.transhead{
+    transition: all 0.5s ease !important;
+  /*border: solid red thin !important;*/
 }
-
-.menu{
-	background: transparent !important;
-	border: none !important;
-	padding-top: 0px !important;
-	margin-bottom: 0px !important;
-	font-weight: bold !important;
-	box-shadow: none !important;
+.transhead .navbar-header img{
+      transition: all 0.5s ease !important;
+  height: 40px !important;
+  width: 40px !important;
+  margin: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 2px !important; 
 }
-.menu a
-{
-	color: #fff !important;
+.transhead .navbar-header h2{
+  transition: all 0.5s ease !important;
+  font-size: 24px !important;
+  margin-top: 8px !important;
 }
+.transhead #myNavbar a{
+  transition: all 0.5s ease !important;
+  font-size: 20px !important;
+  margin-top: 4px !important;
+}
+#head{
+  transition: all 0.5s ease;
+}
+#head img{
+  transition: all 0.5s ease !important;
+  height: 60px;
+  width: 60px;
+  margin: 8px;
+  float: left;
+}
+#head h2{
+  transition: all 0.5s ease !important;
+  margin: 0px;
+  margin-top:15px;
+  margin-left: 12px;
+  padding: 0px;
+  font-size: 35px;
+  float: left;
+  color: #9d9d9d;
+}
+#myNavbar a{
+  font-size: 20px;
+  margin-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/*----------------------Section 1------------------------*/
 /* The hero image */
 .hero_faux_image {
     /* The image used */
@@ -60,16 +92,12 @@ header{
     top: 50%;
     left: 45%;
     transform: translate(-40%, -50%);
-    color: #418aa6;
+    color: #eeeff5;
 }
 .hero-text h1{
   font-size: 70px;
   font-weight: 500;
   line-height: 130%;
-}
-.hero-text b{
-  color: white;
-  text-transform: uppercase;
 }
 .hero_btn{
     text-align: center;
