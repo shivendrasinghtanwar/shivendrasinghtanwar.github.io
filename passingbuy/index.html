@@ -74,42 +74,42 @@
 		<!-- Hero Image Close -->
 	</div>
 	<!-- Section 1 Close -->
-	<!-- Section 2.4 -->
-	<div class="section sec_4">
+	<!-- Section 2 -->
+	<div class="section sec_2">
 		<div class="container">
-			<div class="row sec_4_r1">
+			<div class="row sec_2_r1">
 				<div class="col-md-12 col-xs-12 text-center">
 					<h3>Find Yourself</h3>
 				</div>
 			</div>
-			<div class="row sec_4_r2">
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+			<div class="row sec_2_r2">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/manufacturing_icon_s.png">
 					<h3>Manufacturing</h3>
 					<p>Monitoring, Maintenance, Shop floor automation, Safety Regulation, Scrap Management</p>
 				</div>
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/retail_icon_s.png">
 					<h3>Retail</h3>
 					<p>Proximity Marketing, Lead generation, Employee management, Customer interactive feedback and followup</p>
 				</div>
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/logistics_icon_s.png">
 					<h3>Logistics</h3>
 					<p>Inventory management, Data Analytics based smart storage, Attendance Management.</p>
 				</div>
 			</div>
-			<div class="row sec_4_r2">
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+			<div class="row sec_2_r2">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/operationsMangement_icon_s.png">
 					<h3>Operation and Management</h3>
 					<p>Event tracking, Maintenance regulation, Sensor-bases action generation.</p>
 				</div>
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/defence_icon_s.png">
 					<h3>Defence</h3>
 				</div>
-				<div class="col-md-4 col-xs-12 text-center sec_4_r2box">
+				<div class="col-md-4 col-xs-12 text-center sec_2_r2box">
 					<img src="images/icons/corporate_icon_s.png">
 					<h3>Corporate and Office</h3>
 					<p>Attendance Management, Employee Interaction, Data analytics based Action plan, smart work allocation.</p>
@@ -117,9 +117,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- Section 2.4 Close -->
+	<!-- Section 2 Close -->
 	
-	<!-- Section 3 -->
+	<!-- Section 3 
 	<div class="section sec_3">
 	<div class="sec_3_back">
 		<div class="container">
@@ -171,8 +171,60 @@
 		</div>	
 	</div>
 	</div>
-	<!-- SECTION 3 CLOSE -->
-	<!-- Section 4.2 -->
+	SECTION 3 CLOSE -->
+
+	<!-- SECTION 4 -->
+	<div class="section sec_4">
+	<div class="container">
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 500px;">
+					<div class="col-md-2"></div>
+					<div class="col-md-10">
+						<img src="images/manicon.png" style="height: 60px;width: 45px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 500px;">
+					<div class="col-md-6">
+					</div>
+					<div class="col-md-1">
+						<img src="images/manicon.png" style="height: 60px;width: 45px;">
+					</div>
+					<div class="col-md-3" style="position: relative;">
+						<img src="images/wifi.gif" style="height: 200px;width: 200px;" id="wifisignal">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 50px;">
+					<div class="col-md-9"></div>
+					<div class="col-md-3">
+						<img src="images/mobile.png" id="mobileicon">
+					</div>
+				</div>
+				<div class="row" style="padding-top: 185px;">
+					<div class="col-md-6">
+					</div>
+					<div class="col-md-1">
+						<img src="images/manicon_bluetooth.png" style="height: 80px;width: 50px;">
+					</div>
+					<div class="col-md-3" style="position: relative;">
+						<img src="images/wifi.gif" style="height: 200px;width: 200px;" id="wifisignal">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- SECTION 4 CLOSE -->
+
+	<!-- Section 4.2 
 	<div class="section sec_2">
 		<div class="container-fluid">
 			<div class="row sec_2_r1">
@@ -233,7 +285,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Section 4.2 Close -->
+	 Section 4.2 Close -->
 	<!-- Section 5 -->
 	<div class="section sec_5">
 		<div class="container">
@@ -338,7 +390,13 @@
 <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				scrollBar: true
+				scrollBar: true,
+				controlArrows: false,
+				scrollHorozontally: true,
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['firstSlide', 'secondSlide'],
+
 			});
 		});
 </script>
@@ -349,6 +407,7 @@ $(document).ready(function() {
         $(window).scroll(function() {
             if ($(this).scrollTop() > 1) {
                 $('#head').addClass('transhead');
+                // $('.fp-slidesNav ul li a span').css("background", "#021268");
                 // $('#head').removeClass('navbar-inverse');
             }
             else {

@@ -113,6 +113,47 @@ header{
 }
 /*------------Section 2------------*/
 .sec_2{
+  background: #eeeeee;
+}
+.sec_2_r1 h3{
+  color: #34495E;
+  font-weight: 600;
+  font-size: 60px;
+}
+.sec_2_r2{
+  margin-top: 20px;
+}
+.sec_2_r2box{
+  /*border:solid thin red;*/
+}
+.sec_2_r2box img{
+  height: 80px;
+  width: 80px;
+  transition: 0.5s ease;
+}
+.sec_2_r2box h3{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  color: #34495e;
+  /*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+}
+.sec_2_r2box p{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sec_2_r2box:hover img{
+  transform: translateY(-8px);
+  transition: 0.5s ease;
+}
+/*------------Section 2 Close------------*/
+/*------------Section 2.4 ------------*
+.sec_2{
     background:#1b5773 ;
     background-size: cover; 
 }
@@ -160,7 +201,7 @@ header{
     transform: scale(1.5);
   transition: .5s ease;
 }
-
+/*-------------Section 2.4 Close-------------*/
 /*------------Section 3------------*/
 .sec_3{
     background:url(../images/slider/3.jpg) no-repeat center;  
@@ -234,51 +275,25 @@ header{
   width: 0;
   border-top: 28.87px solid #64C7CC;
 } 
-/*---------Section 4-------------*/
+/*-------------- Section 4 ------------------*/
 .sec_4{
-  background: #eeeeee;
+
+  background: url('../images/slider/4.jpg') center;
+  background-color: #eeeeee;
+
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.sec_4_r1 h3{
-  color: #34495E;
-  font-weight: 600;
-  font-size: 60px;
+#wifisignal{
+  position: absolute;
+  top: -180px;
 }
-.sec_4_r2{
-  margin-top: 20px;
+#mobileicon{
+  width: 150px;
+  height: 250px;
 }
-.sec_4_r2box{
-  /*border:solid thin red;*/
-}
-.sec_4_r2box img{
-  height: 80px;
-  width: 80px;
-  transition: 0.5s ease;
-}
-.sec_4_r2box h3{
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  color: #34495e;
-  /*  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-}
-.sec_4_r2box p{
-  font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.sec_4_r2box:hover img{
-  transform: translateY(-8px);
-  transition: 0.5s ease;
-}/*
-.sec_4_r2box:hover h3{
-  text-decoration: underline;
-  transition: 1s ease-in-out;
-}*/
-/*--------------Section 5 ------------------*/
+/*-------------- Section 4 Close ------------------*/
+/*-------------- Section 5 ------------------*/
 .sec_5{
   background: white;
 }
