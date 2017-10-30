@@ -14,7 +14,7 @@
 	<!-- Animate CSS-->
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<!-- FullPage CSS-->
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" /> -->
 	<!-- Owl Carousel CSS-->
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.default.css">
@@ -180,8 +180,53 @@
 	SECTION 3 CLOSE -->
 
 	<!-- SECTION 4 -->
-	<div class="section sec_4" id="section4">
-		<img src="images/manicon.png" id="man">
+	<div class="section sec_4">
+	<div class="container-fluid ">
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 500px;">
+					<div class="col-md-2"></div>
+					<div class="col-md-10">
+						<img src="images/manicon.png" style="height: 60px;width: 45px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 500px;">
+					<div class="col-md-6">
+					</div>
+					<div class="col-md-1">
+						<img src="images/manicon.png" style="height: 60px;width: 45px;">
+					</div>
+					<div class="col-md-3" style="position: relative;">
+						<img src="images/wifi.gif" style="height: 200px;width: 200px;" id="wifisignal">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="container">
+				<div class="row" style="padding-top: 50px;">
+					<div class="col-md-9"></div>
+					<div class="col-md-3">
+						<img src="images/mobile.png" id="mobileicon">
+					</div>
+				</div>
+				<div class="row" style="padding-top: 185px;">
+					<div class="col-md-6">
+					</div>
+					<div class="col-md-1">
+						<img src="images/manicon_bluetooth.png" style="height: 80px;width: 50px;">
+					</div>
+					<div class="col-md-3" style="position: relative;">
+						<img src="images/wifi.gif" style="height: 200px;width: 200px;" id="wifisignal">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 	<!-- SECTION 4 CLOSE -->
 
@@ -343,55 +388,36 @@
 <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.fullPage.js"></script> -->
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 
 <!-- JAVASCRIPT FUNCTIONS -->
 <!-- FULLPAGE.js call function -->
-<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				scrollBar: true,
-				controlArrows: false,
-				navigation: true,
-				navigationPosition: 'right',
-				// navigationTooltips: ['firstSlide', 'secondSlide'],
 
-			});
-		});
-</script>
 <!-- FULLPAGE.js call function close-->
 <!-- Scroll Header Function -->
 <script>	 
 $(document).ready(function() {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 100) {
+            if ($(this).scrollTop() > 40) {
                 $('#head').addClass('transhead');
-                $(window).scrollTo(600);
+                $(this).scrollTo(600,0);
+        alert($(window).scrollTop() + " px");
                 // $('.fp-slidesNav ul li a span').css("background", "#021268");
                 // $('#head').removeClass('navbar-inverse');
             }
-            else if($(this).scrollTop() < 400) {
-                $('#head').removeClass('transhead');
-                // $('#head').addClass('navbar-inverse');
-            }
-            else if ($(this).scrollTop() > 1200) {
-				document.getElementById("section4").addEventListener("wheel", scrollee);
-            }
+            // else if($(this).scrollTop() < 400) {
+            //     $('#head').removeClass('transhead');
+            //     // $('#head').addClass('navbar-inverse');
+            // }
         });
     });
 </script>
-<script type="text/javascript">
-	function scrollee() {
-			document.getElementById("man").style.margin-right = $(window).scrollTop() + 'px';
-}
-</script>
 <!-- Scroll Header Function Close -->
-<!-- Wow Animation Function -->
 
 <script type="text/javascript">
 	$(document).ready(function(){
-    $("button").click(function(){
+    	$("button").click(function(){
         alert($(window).scrollTop() + " px");
     });
 });
