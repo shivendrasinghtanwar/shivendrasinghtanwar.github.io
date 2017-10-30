@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>passing</title>
-	<link rel="shortcut icon" type="image/icon" href="images/favicon.ico">
+	<title>Passing Buy</title>
+	<link rel="shortcut icon" type="image/icon" href="images/logo/logo.png">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
 	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -30,22 +30,26 @@
 <header>
 <nav class="navbar navbar-inverse navbar-fixed-top " id="head" style="transition: all 0.5s;">
   <div class="container">
-    <div class="navbar-header">
+    <div class="navbar-header" style="width: 60%;">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <div class="col-xs-4" style="padding-top:5px;width: 300px;">
-      	<a href="index.html"><img src="images/logo/Logo.png">
-      	<h2>Passing Buy</h2>
+      	<a href="index.html">
+      		<div class="col-xs-4">
+		      	<h2>Passing Buy</h2>
+      		</div>
+      		<div class="col-xs-5"></div>
+      		<div class="col-xs-3">
+      			<img src="images/logo/logowhite.png" id="mainlogo" class="pull-right">
+      		</div>
       	</a>
-      </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="work.html">About Us</a></li>
-        <li><a href="expertise.html">What We Do?</a></li><!-- 
+      <ul class="nav navbar-nav" style="width: 40%;float: right;">
+        <li class="pull-right"><a href="work.html">About Us</a></li>
+        <li class="pull-right"><a href="expertise.html">What We Do?</a></li><!-- 
         <li><a href="about.html">About</a></li> 
         <li><a href="news.html">News</a></li>  -->
       </ul>
@@ -175,7 +179,7 @@
 
 	<!-- SECTION 4 -->
 	<div class="section sec_4">
-	<div class="container">
+	<div class="container-fluid ">
 		<div class="slide">
 			<div class="container">
 				<div class="row" style="padding-top: 500px;">
@@ -395,7 +399,7 @@
 				scrollHorozontally: true,
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['firstSlide', 'secondSlide'],
+				// navigationTooltips: ['firstSlide', 'secondSlide'],
 
 			});
 		});
@@ -405,12 +409,12 @@
 <script>	 
 $(document).ready(function() {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 1) {
+            if ($(this).scrollTop() > 300) {
                 $('#head').addClass('transhead');
                 // $('.fp-slidesNav ul li a span').css("background", "#021268");
                 // $('#head').removeClass('navbar-inverse');
             }
-            else {
+            else if($(this).scrollTop() < 400) {
                 $('#head').removeClass('transhead');
                 // $('#head').addClass('navbar-inverse');
                 

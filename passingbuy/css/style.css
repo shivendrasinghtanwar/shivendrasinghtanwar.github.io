@@ -9,42 +9,48 @@ header{
 	width: 100%;
     transition: all 0.5s ease !important;
 }
+navbar-nav{
+  width: 100%;
+}
 .transhead{
     transition: all 0.5s ease !important;
   /*border: solid red thin !important;*/
 }
 .transhead .navbar-header img{
-      transition: all 0.5s ease !important;
-  height: 40px !important;
-  width: 40px !important;
-  margin: 0px !important;
+  transition: all 0.5s ease !important;
+  height: 32px !important;
+  width: 80px !important;
+  margin-top: 10px !important;
   margin-bottom: 0px !important;
-  margin-top: 2px !important; 
+  margin-right: 60px !important;
+  /*border:solid thin red;*/
+  /*padding-right: 20px !important;*/
 }
 .transhead .navbar-header h2{
   transition: all 0.5s ease !important;
   font-size: 24px !important;
-  margin-top: 8px !important;
+  margin-top: 13px !important;
 }
 .transhead #myNavbar a{
   transition: all 0.5s ease !important;
   font-size: 20px !important;
-  margin-top: 4px !important;
+  margin-top: 2px !important;
 }
 #head{
   transition: all 0.5s ease;
 }
 #head img{
   transition: all 0.5s ease !important;
-  height: 60px;
-  width: 60px;
-  margin: 8px;
-  float: left;
+  height: 45px;
+  width: 120px;
+  margin-top: 20px;
+  margin-right: 43px;
+  margin-bottom: 17px;
 }
 #head h2{
   transition: all 0.5s ease !important;
   margin: 0px;
-  margin-top:15px;
+  margin-top:18px;
   margin-left: 12px;
   padding: 0px;
   font-size: 35px;
@@ -53,7 +59,7 @@ header{
 }
 #myNavbar a{
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 18px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -282,7 +288,7 @@ header{
   background-color: #eeeeee;
 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 #wifisignal{
   position: absolute;
