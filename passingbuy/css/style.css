@@ -290,13 +290,51 @@ navbar-nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#wifisignal{
-  position: absolute;
-  top: -180px;
+.sec_4_r1{
+  margin-top: 30px;
+  /*border: solid thin red;*/
 }
-#mobileicon{
-  width: 150px;
+.sec_4_r2{
+  /*border:solid thin green;*/
+  overflow: visible;
+  padding-top: 10px;
+}
+.sec_4_r3{
+   padding-top: 10px;
+  /*border: solid thin blue;*/
+}
+#man{
+  height: 70px;
+  width: 45px;
+  /*border:solid thin red;*/
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+#mobile{
   height: 250px;
+  width: 160px;
+  animation-delay: 4s;
+  animation-duration: 2s;
+}
+#wifi_3{
+  position: relative;
+  height: 160px;
+  width: 160px;
+  margin-left: 28px;
+  margin-top: 35px;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  /*border: solid thin black;*/
+}
+#b_tick{
+  animation-delay: 6s;
+  /*border: solid thin darkred;*/
+  animation-duration: 1s;
+  margin-top: 150px;
+  height: 35px;
+  width: 35px;
+  animation-name: fadeIn ;
+  -webkit-animation-name: fadeIn;
 }
 /*-------------- Section 4 Close ------------------*/
 /*-------------- Section 5 ------------------*/
