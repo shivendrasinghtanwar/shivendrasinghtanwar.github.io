@@ -1,3 +1,6 @@
+.border{
+  border:solid red thin;
+}
 body{
   font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -337,9 +340,28 @@ navbar-nav{
   -webkit-animation-name: fadeIn;
 }
 /*-------------- Section 4 Close ------------------*/
-/*-------------- Section 5 ------------------*/
+/*-------------- Section 5 --------------------*/
 .sec_5{
-  background: white;
+ background: url('../images/slider/5.jpg') center;
+  background-color: #eeeeee;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_5 h3{
+  color: #052e42;
+  font-size: 85px;
+  margin-top: 60px;
+  animation-duration: 1s;
+}
+.sec_5 p{
+  font-size: 26px;
+  animation-delay: 1s;
+}
+/*-------------- Section 5 Close --------------------*/
+/*-------------- Section 5.1 ------------------
+.sec_5{
+  background-image: url('../images/5.jpg');
 }
 .sec_5_r1 h3{
   color: #34495E;
@@ -376,7 +398,8 @@ navbar-nav{
   color: white;
   transition: .5s ease;
 }
-/*------------------Section 6--------------------------*/
+------------------- Section 5.1 -----------------------*/
+/*----------------- Section 6--------------------------*/
 .sec_6{
   background: #2a373f;
 }
