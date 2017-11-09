@@ -403,14 +403,25 @@ navbar-nav{
 .sec_6{
   background: #2a373f;
 }
+.sec_6_r1{
+  padding-top: 90px;
+  /*border: solid thin red;*/
+}
 .sec_6_r1 h3{
-  font-size: 40px;
+  font-size: 60px;
   color: white;
   font-weight: bold;
 }
+.sec_6_r2{
+  margin-top: 30px;
+  /*border: solid thin red;*/
+}
 .sec_6_r2 p{
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+}
+.sec_6_r2 button{
+  margin-right: 0px;
 }
 .sec_6_r2 button,.sec_6_r3 button{
   background: #cf0b2c;
@@ -423,15 +434,38 @@ navbar-nav{
   padding-bottom: 10px;
 }
 .sec_6_r3{
-  margin-top: 30px;
+  margin-top: 50px;
+  padding-left: 16px;
 }
 .sec_6_r3 h3{
   font-size: 25px;
   color: white;
   font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.sec_6_r3 button{
+  margin-left: 0px;
+  margin-top: 20px;
 }
 .sec_6_r3 p{
   font-size: 20px;
   color: white;
   font-weight: 200px;
+  margin-left: 0px;
+  margin-top: 25px;
+  padding-bottom: 17px;
+}
+.sec_6_r4{
+  background: #31414a;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.icon{
+  /*border: solid red thin;*/
+  margin: 20px;
+  margin-left: 30px;
 }
