@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shivendra Singh Tawnar</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+	<style type="text/css">
+		body{
+			font-family: 'Open Sans', sans-serif;
+			padding: 5px;
+		}
+		table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+		.mainTable th{
+			 border-bottom: 1px solid black;
+			 text-align:left;
+		}
+		.mainTable td{
+			 border-bottom: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+  <!-- Upper Row with logo and company and customer address  -->
+      <table>
+      	<tr>
+      		<td>
+	        	<table>
+	        		<tr>
+	        			<th style="text-align: left;">
+	        				<strong>  Allps Digital Pvt. Ltd. </strong>
+	        			</th>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$companyAddress$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$companyZipCode$ $companyCity$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$companyCountry$
+	        			</td>
+	        		</tr>
+
+	        		<tr>
+	        			<td>
+	        				 <br/>
+	        			</td>
+	        		</tr>
+
+	        		<tr>
+	        			<th style="text-align: left;">
+	        				<strong>  $customerName$ </strong>
+	        			</th>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$customerAddress$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$customerZipCode$ $customerCity$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td>
+	        				$customerCountry$
+	        			</td>
+	        		</tr>
+	        	</table>	
+      		</td>
+      		<td style="text-align:right;">
+      			<img  src="https://avatars2.githubusercontent.com/u/22855947?s=460&v=4" class="pull-right" style="margin-right: 0px; height: 100px;" />
+      		</td>
+      	</tr>
+      </table>   
+     <!-- Invoice general Row with invoice number, duedate, invoice date,etc  -->
+     <table>
+     	<tr>
+     		<td>
+     			<h3><strong>INVOICE</strong></h3>
+     		</td>
+     	</tr>
+     </table>
+
+     <div style="border-top: 1px solid black"></div>
+
+     <table>
+     	<tr>
+     		<td>
+     			<table>
+     				<tr>
+     					<td>
+     						Invoice Date : $invoiceDate$
+     					</td>
+     				</tr>
+     				<tr>
+     					<td>
+     						Due Date :  $dueDate$
+     					</td>
+     				</tr>
+     			</table>
+     		</td>
+     		<td>
+     			<table>
+     				<tr>
+     					<td>
+     						Invoice Number : $invoiceNumber$
+     					</td>
+     				</tr>
+     				<tr>
+     					<td>
+     						PO Number :  $poNumber$
+     					</td>
+     				</tr>
+     			</table>
+     		</td>
+     	</tr>
+     </table>
+     <div style="border-top: 1px solid black"></div>
+		<br/>     
+     <!-- Free text one row -->
+     $freeTextOneRow$
+<br/>
+    <!-- Main Table Row row -->
+        <table class="mainTable">
+            <tr>
+                <th>S. No.</th>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>Discount</th>
+                <th>VAT</th>
+                <th>Total</th>
+            </tr>                    
+            $tableBody$
+        </table>
+
+      <!-- Total table Row row -->
+      <table style="text-align: right;">
+      	<tr>
+      		<td width=70%></td>
+      		<td width=30%>
+      			<table style="text-align: right;">
+      			<tr >
+		            <th>Total (NET) : </th>
+		            <th>$subTotal$ $currency$</th>
+		        </tr>
+		        <tr style="border-top: 1px solid black">
+		            <th>Discount : </th>
+		            <th>$discount$ $currency$</th>
+		        </tr>              
+		        <tr style="border-top: 1px solid black;border-bottom: 1px solid black;font-size: 20px;">
+		            <th>Total : </th>	
+		           	<th>$totalAmount$ $currency$</th>
+		        </tr>
+			</table>
+      		</td>
+      	</tr>
+      </table>
+
+      <br/>
+      <!-- Free text Two row -->
+     $freeTextTwoRow$
+
+      
+    <center> <p>$terms$</p> </center>
+    <div class="row" style="border-top: 1px solid black"></div>  
+ 	<center>
+ 		<p> $footer$ </p>
+ 	</center>
+
+</body>
+</html>
