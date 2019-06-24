@@ -1,0 +1,13 @@
+{
+  "name": "shivendrasinghtanwar.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "repository": "git@github.com:shivendrasinghtanwar/shivendrasinghtanwar.github.io.git",
+  "author": "sunnysinghtanwar <sunnysinghtanwar2@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "tailwindcss": "^1.0.4"
+  }
+}
