@@ -1,0 +1,19 @@
+{
+    "projects":[
+        {
+            "name":"One Page WebSite",
+            "desc":"A sample one page website made in pure html and css",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/onepage/"
+        },
+        {
+            "name":"Bhuvan Speed Post Project",
+            "desc":"A sample one page website made in pure html and css",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Bhuvan Speed Post/"
+        },
+        {
+            "name":"Noted",
+            "desc":"A sample one page website made in pure html and css",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Noted/"
+        }
+    ]
+}

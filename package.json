@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "requirejs": "^2.3.6",
     "tailwindcss": "^1.0.4"
   }
 }
