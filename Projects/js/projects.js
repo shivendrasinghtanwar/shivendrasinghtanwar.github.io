@@ -1,4 +1,4 @@
-
+require(['../../js/index']);
 require.config({
     waitSeconds : 2,
     paths : {
@@ -9,7 +9,7 @@ require.config({
 
 require(['json!../projects.json'], function (projectJson) {
     var projectList = projectJson.projects
-    console.log("Project List",projectList.length);
+    // console.log("Project List",projectList.length);
 
     var listBox = document.getElementById('listBox');
 
@@ -29,7 +29,7 @@ require(['json!../projects.json'], function (projectJson) {
         linkTag.appendChild(link
             )
         recordDiv.appendChild(linkTag)
-        console.log(recordDiv);
+        // console.log(recordDiv);
         
         listBox.appendChild(recordDiv);
     }
