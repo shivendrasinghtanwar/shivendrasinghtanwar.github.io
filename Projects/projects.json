@@ -14,6 +14,11 @@
             "name":"Noted",
             "desc":"A sample one page website made in pure html and css",
             "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Noted/"
+        },
+        {
+            "name":"Hasher",
+            "desc":"Online Hash Converter",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/hasher/"
         }
     ]
 }
