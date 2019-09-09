@@ -1,3 +1,7 @@
+* {
+    transition: 0.35s ease;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     padding: 5px;
@@ -9,7 +13,7 @@ body{
 
 .mainContainer{
     width: 60%;
-    background: #F9F9FA;
+    background: rgb(207, 230, 250);
     min-height: 500px;
     -webkit-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
     -moz-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
@@ -22,7 +26,8 @@ body{
     display:flex;
     background-color: #0A1863;
     margin-top: 0px;
-    justify-content: center;
+    justify-content: flex-start;
+    
     min-height: 100px;
     align-items: flex-end;
     padding-bottom: 10px;
@@ -32,20 +37,72 @@ body{
     color: #fff;
     font-size: 45px;
     margin: 0px;
+    padding-left: 10px;
 }
 
 #basicInfo{
     border: none;
     width: 100%;
 }
-
+#dpImgDiv{
+    position: absolute;
+    border: #333333 solid 1px;
+    right: 0px;;
+}
 #dpImg{
-    height: 150px;
-    border: solid 1px #333333;
-    border-radius: 999px;
+    height: 250px;
+    border: solid 2px #333333;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    position: relative;
+    top: -110px;
+    left: 0px;
 }
 
 #infoBox{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    /* border: #333333 solid 1px; */
+    justify-content: space-between;
+    border-bottom: 2px #333333 solid
+}
+
+#infoBoxText{
+    padding-left: 10px;
+}
+
+#infoBoxText h4{
+    padding-top: 5px;
+}
+
+#expBox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #fff;
+    /* background-color: #0A1863; */
+    /* border: #333333 solid 1px; */
+    justify-content: flex-start;
+    /* border-bottom: 2px #333333 solid; */
+}
+
+#expBox h3{
+    padding-left: 10px;
+    padding-right: 10PX;
+    margin: 0px;
+}
+#heading{
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0A1863;
+}
+
+#repContent{
+    border: #333333 solid 1px;
+    color: #333333;
+    font-weight: 700;
+    flex-grow: 3;
 }
