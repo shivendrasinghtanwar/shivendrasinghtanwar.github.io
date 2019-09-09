@@ -88,21 +88,32 @@ body{
     /* border-bottom: 2px #333333 solid; */
 }
 
-#expBox h3{
+#heading h3{
     padding-left: 10px;
     padding-right: 10PX;
     margin: 0px;
-}
-#heading{
-    flex-grow: 1;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #0A1863;
 }
+#heading{
+    flex-grow: 1;
+}
 
 #repContent{
-    border: #333333 solid 1px;
+    /* border: #333333 solid 1px; */
     color: #333333;
     font-weight: 700;
-    flex-grow: 3;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 45px;
+}
+
+#repContent h3{
+    text-decoration: underline;
+    margin: 0px;
+}
+#repContent h4{
+    margin: 0px;
 }
