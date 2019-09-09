@@ -13,7 +13,7 @@ body{
 
 .mainContainer{
     width: 60%;
-    background: rgb(207, 230, 250);
+    background: rgb(226, 247, 255);
     min-height: 500px;
     -webkit-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
     -moz-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
@@ -88,6 +88,12 @@ body{
     /* border-bottom: 2px #333333 solid; */
 }
 
+
+#heading{
+    width: 25%;
+    
+    
+}
 #heading h3{
     padding-left: 10px;
     padding-right: 10PX;
@@ -95,11 +101,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #0A1863;
+    float: left;
+    width: 80%;
 }
-#heading{
-    width: 25%;
-}
-
 #repContent{
     /* border: #333333 solid 1px; */
     color: #333333;
@@ -116,4 +120,13 @@ body{
 }
 #repContent h4{
     margin: 0px;
+}
+
+.arrow{
+    width: 0; 
+    float: left;
+    height: 0; 
+    border-top: 22px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 20px solid #0A1863;
 }
