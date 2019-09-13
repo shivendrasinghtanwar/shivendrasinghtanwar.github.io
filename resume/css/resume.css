@@ -19,21 +19,23 @@ body{
     -moz-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
     box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
     padding-top: 0px;
+    border: #000 solid 1px;
+}
+.header{
+    position: relative;
 }
 
-
-.header{
+.title{
     display:flex;
     background-color: #0A1863;
     margin-top: 0px;
-    justify-content: flex-start;
-    
+    justify-content: center;
     min-height: 100px;
     align-items: flex-end;
     padding-bottom: 10px;
 }
 
-.header p{
+.title p{
     color: #fff;
     font-size: 45px;
     margin: 0px;
@@ -46,17 +48,15 @@ body{
 }
 #dpImgDiv{
     position: absolute;
-    border: #333333 solid 1px;
-    right: 0px;;
+    right: 25px;
+    top: 20px;
+    height: 90%;
+    overflow: hidden;
 }
 #dpImg{
-    height: 250px;
-    border: solid 2px #333333;
-    border-top-left-radius: 500px;
-    border-bottom-left-radius: 500px;
-    position: relative;
-    top: -110px;
-    left: 0px;
+    height: 80%;
+    border: #0A1863 solid 15px;
+    border-top:0px;
 }
 
 #infoBox{
@@ -64,8 +64,8 @@ body{
     flex-direction: row;
     width: 100%;
     /* border: #333333 solid 1px; */
-    justify-content: space-between;
-    border-bottom: 2px #333333 solid
+    justify-content: center;
+    border-bottom: 3px #333333 solid
 }
 
 #infoBoxText{
@@ -78,12 +78,11 @@ body{
 
 #expBox{
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     width: 100%;
     color: #fff;
-    /* background-color: #0A1863; */
-    /* border: #333333 solid 1px; */
     justify-content: flex-start;
     /* border-bottom: 2px #333333 solid; */
 }
@@ -129,4 +128,14 @@ body{
     border-top: 22px solid transparent;
     border-bottom: 23px solid transparent;
     border-left: 20px solid #0A1863;
+}
+
+.arrow-small{
+    width: 0; 
+    float: left;
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #0A1863;
+    margin-right: 5px;
 }
