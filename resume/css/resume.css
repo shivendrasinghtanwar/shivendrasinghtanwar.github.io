@@ -89,9 +89,7 @@ body{
 
 
 #heading{
-    width: 25%;
-    
-    
+    width: 20%;
 }
 #heading h3{
     padding-left: 10px;
@@ -111,14 +109,8 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 45px;
-}
-
-#repContent h3{
-    text-decoration: underline;
-    margin: 0px;
-}
-#repContent h4{
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .arrow{
@@ -138,4 +130,24 @@ body{
     border-bottom: 10px solid transparent;
     border-left: 10px solid #0A1863;
     margin-right: 5px;
+}
+.entry{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.serialNumBox{
+    float: left;
+    padding-top: 3px;
+}
+
+.contentBox{
+    float: left;
+}
+.contentBox h3{
+    margin: 0px;
+    text-decoration: underline;
+}
+.contentBox h4{
+    margin: 0px;
 }
