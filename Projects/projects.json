@@ -1,24 +1,25 @@
 {
     "projects":[
         {
-            "name":"One Page WebSite",
-            "desc":"A sample one page website made in pure html and css",
-            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/onepage/"
-        },
-        {
-            "name":"Bhuvan Speed Post Project",
-            "desc":"A sample one page website made in pure html and css",
-            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Bhuvan Speed Post/"
+            "name":"Hasher",
+            "desc":"A hash calculator.",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/hasher/"
         },
         {
             "name":"Noted",
-            "desc":"A sample one page website made in pure html and css",
+            "desc":"Online Notes taking application.",
             "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Noted/"
         },
+        
         {
-            "name":"Hasher",
-            "desc":"Online Hash Converter",
-            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/hasher/"
+            "name":"Bhuvan Speed Post Project",
+            "desc":"Protoype for Kiosk service of Indian Post.",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/Bhuvan Speed Post/"
+        },
+        {
+            "name":"One Page WebSite",
+            "desc":"A sample one page website made in html and css.",
+            "gitLink":"https://shivendrasinghtanwar.github.io/Projects/onepage/"
         }
     ]
 }
