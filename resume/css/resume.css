@@ -29,7 +29,7 @@ body{
     display:flex;
     background-color: #0A1863;
     margin-top: 0px;
-    justify-content: center;
+    justify-content: start;
     min-height: 100px;
     align-items: flex-end;
     padding-bottom: 10px;
@@ -64,7 +64,7 @@ body{
     flex-direction: row;
     width: 100%;
     /* border: #333333 solid 1px; */
-    justify-content: center;
+    justify-content: start;
     border-bottom: 3px #333333 solid
 }
 
