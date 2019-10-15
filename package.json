@@ -9,6 +9,11 @@
   "private": true,
   "dependencies": {
     "requirejs": "^2.3.6",
-    "tailwindcss": "^1.0.4"
+    "tailwindcss": "^1.0.4",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "watch": "watch 'cp -r * /var/www/githubIO' "
   }
 }

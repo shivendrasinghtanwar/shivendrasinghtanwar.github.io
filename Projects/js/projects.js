@@ -16,7 +16,7 @@ require(['json!../projects.json'], function (projectJson) {
     for(var j=0;j<projectList.length;j++){
         var recordDiv = document.createElement("DIV");
 
-        let classesToAdd = [ 'flex', 'bg-white','border-gray-500', 'border', 'min-h-full', 'rounded-lg', 'mt-5', 'mb-5', 'p-6','flex-col' ];
+        let classesToAdd = [ 'flex', 'bg-white', 'min-h-full', 'rounded-lg', 'mt-5', 'mb-5', 'p-6','flex-col','shadow-lg' ];
         recordDiv.classList.add(...classesToAdd);
         var recordData = document.createTextNode("Name : "+projectList[j].name);
 
@@ -26,8 +26,7 @@ require(['json!../projects.json'], function (projectJson) {
         var linkTag = document.createElement("a")
         linkTag.setAttribute('href',projectList[j].gitLink);
         var link = document.createTextNode("Link To Project!");
-        linkTag.appendChild(link
-            )
+        linkTag.appendChild(link)
         recordDiv.appendChild(linkTag)
         // console.log(recordDiv);
         
