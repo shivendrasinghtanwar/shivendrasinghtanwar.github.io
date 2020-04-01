@@ -48,7 +48,7 @@ body{
     color: #fff;
     font-size: 3.5rem;
     margin: 0px;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 #basicInfo{
@@ -75,7 +75,7 @@ body{
     width: 100%;
     /* border: #333333 solid 1px; */
     justify-content: start;
-    border-bottom: 3px #333333 solid
+    /*border-bottom: 3px #333333 solid*/
 }
 
 #infoBoxText{
@@ -164,11 +164,20 @@ body{
 .contentBox{
     float: left;
     font-size: 1.2rem;
+    width: 100%;
 }
 .contentBox h3{
     margin: 0px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #fff;
+    background: var(--resume-theme-color);
+    padding-left: 0.5rem;
 }
 .contentBox h4{
     margin: 0px;
+    padding-left: 0.5rem;
+}
+
+.contentBox p{
+  padding-left: 0.5rem;
 }
