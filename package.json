@@ -14,6 +14,6 @@
   },
   "scripts": {
     "test": "tape test/*.js",
-    "watch": "watch 'cp -r * /var/www/githubIO' "
+    "watch": "watch 'sudo cp -r * /var/www/githubIO' "
   }
 }
