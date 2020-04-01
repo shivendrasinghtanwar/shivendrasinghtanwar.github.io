@@ -76,7 +76,7 @@ body{
     padding-top: 5px;
 }
 
-#expBox{
+.expBox{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -88,10 +88,10 @@ body{
 }
 
 
-#heading{
+.heading{
     width: 20%;
 }
-#heading h3{
+.heading h3{
     padding-left: 10px;
     padding-right: 10PX;
     margin: 0px;
@@ -101,7 +101,7 @@ body{
     float: left;
     width: 80%;
 }
-#repContent{
+.repContent{
     /* border: #333333 solid 1px; */
     color: #333333;
     font-weight: 700;
@@ -114,18 +114,18 @@ body{
 }
 
 .arrow{
-    width: 0; 
+    width: 0;
     float: left;
-    height: 0; 
+    height: 0;
     border-top: 22px solid transparent;
     border-bottom: 23px solid transparent;
     border-left: 20px solid #0A1863;
 }
 
 .arrow-small{
-    width: 0; 
+    width: 0;
     float: left;
-    height: 0; 
+    height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid #0A1863;
