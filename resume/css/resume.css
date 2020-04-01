@@ -2,24 +2,32 @@
     transition: 0.35s ease;
 }
 
+:root {
+  --resume-theme-color: #328AE8;
+  --resume-page-color: #f9f9f9;
+  --resume-back-color: #eeeeee;
+}
+
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Baloo Thambi 2', cursive;
     padding: 5px;
-    background-color:#39A8FA ;
-    content: justify;
+    background-color:var(--resume-back-color) ;
+    /*content: justify;*/
     justify-content: center;
     display: flex;
 }
 
 .mainContainer{
     width: 60%;
-    background: rgb(226, 247, 255);
+    background: var(--resume-page-color);
     min-height: 500px;
-    -webkit-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
-    -moz-box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
-    box-shadow: -1px 10px 13px 1px rgba(0,0,0,0.65);
+    -webkit-box-shadow:6px 10px 28px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
     padding-top: 0px;
-    border: #000 solid 1px;
+    margin-top: 3rem;
+  margin-bottom: 3rem;
+    /*border: #000 solid 1px;*/
 }
 .header{
     position: relative;
@@ -27,17 +35,18 @@ body{
 
 .title{
     display:flex;
-    background-color: #0A1863;
+    background-color: var(--resume-theme-color);
     margin-top: 0px;
     justify-content: start;
     min-height: 100px;
     align-items: flex-end;
     padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .title p{
     color: #fff;
-    font-size: 45px;
+    font-size: 3.5rem;
     margin: 0px;
     padding-left: 10px;
 }
@@ -49,19 +58,20 @@ body{
 #dpImgDiv{
     position: absolute;
     right: 25px;
-    top: 20px;
-    height: 90%;
+    top: 30px;
+    height: 102%;
     overflow: hidden;
 }
 #dpImg{
     height: 80%;
-    border: #0A1863 solid 15px;
+    border: var(--resume-theme-color) solid 15px;
     border-top:0px;
 }
 
 #infoBox{
     display: flex;
     flex-direction: row;
+    font-size: 1.2rem;
     width: 100%;
     /* border: #333333 solid 1px; */
     justify-content: start;
@@ -74,6 +84,16 @@ body{
 
 #infoBoxText h4{
     padding-top: 5px;
+}
+
+#infoBoxText > * > a{
+  text-decoration: none;
+  color: #0f0f0f;
+
+}
+#infoBoxText > * > a:hover{
+  text-decoration: underline;
+  color: #2f77a7;
 }
 
 .expBox{
@@ -93,13 +113,13 @@ body{
 }
 .heading h3{
     padding-left: 10px;
-    padding-right: 10PX;
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #0A1863;
+    background-color: var(--resume-theme-color);
     float: left;
     width: 80%;
+    font-size: 1.5rem;
 }
 .repContent{
     /* border: #333333 solid 1px; */
@@ -117,9 +137,9 @@ body{
     width: 0;
     float: left;
     height: 0;
-    border-top: 22px solid transparent;
-    border-bottom: 23px solid transparent;
-    border-left: 20px solid #0A1863;
+    border-top: 1.8rem solid transparent;
+    border-bottom: 1.8rem solid transparent;
+    border-left: 2rem solid var(--resume-theme-color);
 }
 
 .arrow-small{
@@ -128,8 +148,8 @@ body{
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid #0A1863;
-    margin-right: 5px;
+    border-left: 10px solid var(--resume-theme-color);
+    margin-right: 10px;
 }
 .entry{
     width: 100%;
@@ -143,6 +163,7 @@ body{
 
 .contentBox{
     float: left;
+    font-size: 1.2rem;
 }
 .contentBox h3{
     margin: 0px;
