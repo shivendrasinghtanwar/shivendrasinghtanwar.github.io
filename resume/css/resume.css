@@ -181,3 +181,10 @@ body{
 .contentBox p{
   padding-left: 0.5rem;
 }
+
+
+@media (max-width:1070px) {
+  #dpImg {
+    display: none;
+  }
+}
