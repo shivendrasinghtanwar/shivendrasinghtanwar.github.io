@@ -1,5 +1,7 @@
 # Personal Introduction Website
+Do visit - https://shivendrasinghtanwar.github.io
 
+Resume - [Click here!](https://shivendrasinghtanwar.github.io/resume/index.html)
 
 ## Setting Up The Environment
 
@@ -13,7 +15,7 @@ Still if you want you can -
 
 Clone the repo -
 
-    git clone https://github.com/shivendrasinghtanwar/urlShortner.git
+    git clone https://github.com/shivendrasinghtanwar/shivendrasinghtanwar.github.io.git
 
 Configure a local server of your choice (Go for [nginx](https://www.nginx.com/))
 
