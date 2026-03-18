@@ -1,19 +1,35 @@
 {
   "name": "shivendrasinghtanwar.github.io",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.js",
-  "repository": "git@github.com:shivendrasinghtanwar/shivendrasinghtanwar.github.io.git",
-  "author": "sunnysinghtanwar <sunnysinghtanwar2@gmail.com>",
-  "license": "MIT",
+  "version": "2.0.0",
+  "description": "Personal Portfolio — Shivendra Singh Tanwar",
   "private": true,
-  "dependencies": {
-    "requirejs": "^2.3.6",
-    "tailwindcss": "^1.0.4",
-    "watch": "^1.0.2"
+  "packageManager": "yarn@1.22.21",
+  "engines": {
+    "node": ">=22"
   },
   "scripts": {
-    "test": "tape test/*.js",
-    "watch": "watch 'sudo cp -r * /var/www/githubIO' "
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.477.0",
+    "next": "^15.2.3",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9",
+    "eslint-config-next": "^15.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }
